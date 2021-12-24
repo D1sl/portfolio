@@ -66,13 +66,20 @@ header ul li a:hover {
 
 section {
     padding-top: 50px;
+}
 
+section h3 {
+    font-size: 30px;
+    font-weight: normal;
 }
 
 .container {
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+
 }
 
 /* HERO SECTION */
@@ -108,4 +115,18 @@ section {
     background-color: black;
     font-size: 30px;
     float: right;
+}
+/* END HERO SECTION */
+
+/* SECTION STYLES */
+.section-title {
+    flex: 1 200px;
+    padding-right: 20px;
+    border-right: 2px solid white;
+}
+
+.section-content {
+    flex: 2 1000px;
+    display: flex;
+    padding-left: 20px;
 }
