@@ -6,6 +6,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #1a1a1a;
+    color: white;
 }
 
 header .container {
@@ -39,12 +41,14 @@ header {
 header nav {
     vertical-align: middle;
     font-size: 20px;
+
 }
 
 header ul {
     display: flex;
     align-items: center;
     list-style: none;
+    
 }
 
 header ul li {
@@ -60,37 +64,48 @@ header ul li a:hover {
     border-bottom: 1px solid white;
 }
 
+section {
+    padding-top: 50px;
 
+}
 
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+/* HERO SECTION */
+.hero {
+    height: 30vw;
+    background-image: url('../images/hero-background.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
+.hero .container {
+    position: relative;
+    height: 100%;
+}
 
+.hero div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
 
-@media screen and (max-width: 575px) {
+.hero .heading {
+    color: white;
+    padding: 10px;
+    background-color: black;
+    font-size: 40px;
+}
 
-    header {
-        height: 90px;
-    }
-
-    header .container {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    header ul {
-        justify-content: center;
-    }
-
-    header nav {
-        padding-top: 10px;
-        width: 100%;
-    }
-
-    header nav ul li {
-        margin: 0 15px 0 15px;
-    }
-
-    header ul li a {
-        font-size: 15px;
-    }
+.hero .secondary-heading {
+    color: white;
+    padding: 0 10px 10px 10px;
+    background-color: black;
+    font-size: 30px;
+    float: right;
 }
