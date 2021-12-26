@@ -100,21 +100,22 @@ section h3 {
     bottom: 0;
     right: 0;
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    justify-content: right;
 }
 
-.hero .heading {
+.hero h2 {
     color: white;
     padding: 10px;
     background-color: black;
-    font-size: 40px;
+    font-size: 35px;
 }
 
-.hero .secondary-heading {
-    color: white;
-    padding: 0 10px 10px 10px;
-    background-color: black;
-    font-size: 30px;
-    float: right;
+.hero h2 span {
+    font-weight: normal;
+
 }
 /* END HERO SECTION */
 
