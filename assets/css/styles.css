@@ -118,7 +118,7 @@ section h3 {
 }
 /* END HERO SECTION */
 
-/* SECTION STYLES */
+/* GLOBAL SECTION STYLES */
 .section-title {
     flex: 1 200px;
     padding-right: 20px;
@@ -134,9 +134,8 @@ section h3 {
     padding-left: 20px;
 }
 
-/* ARTICLE STYLES */
-
-article {
+/* WORK SECTION STYLES */
+.work article {
     background-color: #4c6f9c;
     border: 4px solid white;
     width: 100%;
@@ -148,16 +147,16 @@ article {
     
 }
 
-article:first-child {
+.work article:first-child {
     width: 100%;
     margin-top: 0px;
 }
 
-article:not(:first-child) {
+.work article:not(:first-child) {
     flex: 1;
 }
 
-article .item-title {
+.work article .item-title {
     position: absolute;
     bottom: 30px;
     background-color: white;
@@ -165,20 +164,20 @@ article .item-title {
     color: black;
 }
 
-article .item-title h4 {
+.work article .item-title h4 {
     font-size: 22px;
 }
 
-article .item-title h5 {
+.work article .item-title h5 {
     font-weight: normal;
     font-size: 17px;
 }
 
-.article-image {
+.work .article-image {
     overflow: hidden;
 }
 
-article img {
+.work article img {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -189,9 +188,20 @@ article img {
     opacity: 70%;
 }
 
-article img:hover {
+.work article img:hover {
     filter: saturate(1);
     transform: scale(1);
     transition: .2s ease-in-out;
     opacity: 100%;
+}
+
+/* CONTACT SECTION */
+.contact ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.contact li {
+    margin: 0 15px 0 15px;
 }
