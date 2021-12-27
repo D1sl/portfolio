@@ -8,6 +8,7 @@
 /* GLOBAL RULES AND VARIABLES */
 :root {
     --primary-white: #fff;
+    --links-hover: #c7c7c7;
 }
 
 body {
@@ -18,6 +19,12 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--primary-white);
+}
+
+/* Hover for all links EXCEPT for header links */
+a:hover:not(header ul li a) {
+    color: var(--links-hover);
 }
 
 section {
@@ -214,7 +221,7 @@ article img:hover {
     align-items: center;
 }
 
-.contact li {
+.contact ul li {
     margin: 0 15px 0 15px;
 }
 
