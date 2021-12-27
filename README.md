@@ -8,6 +8,7 @@
 * Displays a profile picture along with a header in a HERO section
 * Showcases my projects 
 * Lists other ways to contact me
+* Fully responsive across all screen sizes
 
 ---
 ## Project links
