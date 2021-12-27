@@ -1,6 +1,8 @@
 # Benjamin Molini Vilhunen Portfolio
+![Screenshot of the Portfolio project](./assets/images/portfolio-screenshot.png)
+
 ## Project description
- This is a portfolio page that showcases my work to potential employers. 
+ This is a portfolio page that showcases my work to potential employers. The page uses best practices for SEO optimization and is also well accessible for screen readers.
  
 ## Features
 * Displays a profile picture along with a header in a HERO section
