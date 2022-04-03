@@ -153,6 +153,7 @@ header ul li a:hover {
 }
 
 /* WORK SECTION */
+
 .work article {
     background-color: #4c6f9c;
     border: 4px solid var(--primary-white);
@@ -171,7 +172,7 @@ header ul li a:hover {
 }
 
 .work article:not(:first-child) {
-    flex: 1;
+    flex: 1 33%;
 }
 
 .item-title {
